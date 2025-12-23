@@ -160,10 +160,7 @@ body {
     width: 650px;
     font-size: 19px;
 }
-.cart{
-    color: white;
-    display: flex;
-}
+
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
@@ -250,3 +247,18 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+  .cart {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 2px 7px;
+  border-radius: 50%;
+  font-weight: bold;
+}
